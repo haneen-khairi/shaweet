@@ -1,0 +1,45 @@
+@keyframes run {
+    25% {
+        transform: rotate(60deg);
+        left: 10%;
+        top: 10%;
+    }
+
+    50% {
+        transform: rotate(120deg);
+        left: 12%;
+        top: 12%;
+    }
+
+    75% {
+        transform: rotate(1800deg);
+        left: 10%;
+        top: 8%;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        left: 10%;
+        top: 10%;
+    }
+}
+
+@keyframes run2 {
+    1%{
+        transform: rotate(360deg);
+        right: 27%;
+        top: 12%;
+    }
+
+    50% {
+        transform: rotate(120deg);
+        right: 12%;
+        top: 16%;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        right: 27%;
+        top: 12%;
+    }
+}
