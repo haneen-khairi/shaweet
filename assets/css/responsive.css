@@ -1,0 +1,37 @@
+@media screen and (max-width:768px) {
+    .d-flex {
+        display: flex;
+        gap: 1rem;
+        position: absolute;
+        justify-content: center;
+        margin-bottom: 0px;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .list-header {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        position: relative;
+    }
+    .lap-menu{
+        display: none;
+    }
+    .lap-icon-menu{
+        display: none;
+    }
+    .bgmain-box1::after{
+        display: none;
+    }
+    .list-header ul li a.active::after {
+        content: " ";
+        position: absolute; 
+        left: 50%;
+        transform: translate(-50%); 
+    }
+    .list-header ul li a:hover::after{
+        left: 50%;
+        transform: translate(-50%); 
+    }
+    
+}

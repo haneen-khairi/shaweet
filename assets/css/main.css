@@ -494,3 +494,40 @@ background-size: 100px;
     right: 10%;
     bottom: 0px;
 }
+.d-flex-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+}
+ 
+ 
+.mobile-menu {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    display: block;
+    top: 12%;
+    left: 0px;
+    right: 0px; 
+    display: none;
+}
+.menu-list-mobile-view{
+    width:100%; 
+    background-color: #faf9fb;
+    padding: 20px 0px;
+}
+.menu-list-mobile-view li a{
+   display: block;
+}
+.mobile-burger{
+    width: 50px;
+    background: transparent;
+    border: none;
+}
+.mobile-burger span{
+    background-color: #490B8B;
+    width:40px;
+    height:2px;
+
+}
