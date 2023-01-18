@@ -1,196 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shaweet</title>
-    <link
-      rel="shortcut icon"
-      href="assets/img/mainimg.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" /> 
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="d-flex-menu">
-            <div class="">
-              <div class="logo">
-               <a href="index.html"><img src="assets/img/logo.png" width="200" alt="" /></a> 
-              </div>
-            </div>
-            <div class="lap-menu">
-              <div class="list-header">
-                <ul class="d-flex">
-                  <li>
-                    <a href="index.html" class="active"> Home</a>
-                  </li>
-                  <li>
-                    <a href="aboutus.html">About Us</a>
-                  </li>
-                  <li>
-                    <a href="ourpartner.html">Our Partners</a>
-                  </li>
-                  <li>
-                    <a href="contactus.html">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="lap-icon-menu">
-              <div class="social-links">
-                <ul class="d-flex icons">
-                  <li>
-                    <a href="" class="social-icon">
-                      <img
-                        src="assets/img/Component 214.png"
-                        width="35"
-                        height="40"
-                        alt=""
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="" class="social-icon">
-                      <img
-                        src="assets/img/Component 215.png"
-                        width="35"
-                        height="40"
-                        alt=""
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="" class="social-icon">
-                      <img
-                        src="assets/img/Component 216.png"
-                        width="35"
-                        height="40"
-                        alt=""
-                    /></a>
-                  </li>
-                  <li>
-                    <a href="" class="social-icon">
-                      <img
-                        src="assets/img/Component 217.png"
-                        width="35"
-                        height="40"
-                        alt=""
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <button class="mobile-burger" onclick="mobileMenu()">
-                <span></span>  
-                <span></span>  
-                <span></span>  
-            </button>
-            <div class="mobile-menu" id="mobile-menu">
-              
-              <div class="list-header">
-                <ul class="d-flex menu-list-mobile-view">
-                  <li>
-                    <a href="" class="active"> Home</a>
-                  </li>
-                  <li>
-                    <a href="">About Us</a>
-                  </li>
-                  <li>
-                    <a href="">Our Partners</a>
-                  </li>
-                  <li>
-                    <a href="">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shaweet</title>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css">
+    <style>
+        .ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-football-block {
+  padding: 50px 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/gates.png) no-repeat scroll 50% 0;
+}
+.ag-football_box {
+  padding: 50px;
+  background-color: rgb(164, 231, 255);
+}
+.ag-football {
+  display: table;
+  height: 587px;
+  width: 524px;
+  margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/sprite-football.png) no-repeat scroll 0 0;
+  background-position: 0 100%;
+
+  -webkit-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -moz-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -o-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+}
+
+@-webkit-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
+
+    </style>
+</head>
+<body>
+    <a href="index.html">
+    <div class="ag-format-container">
+        <div class="ag-football-block">
+          <div class="ag-football"></div>
         </div>
       </div>
-    </header>
-    <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="logo-sec">
-               <a href="index.html"><img src="assets/img/logo.png" width="200" /></a> 
-                <p>subscribe to our news letter</p>
-                <div class="subscribe-input">
-                  <form>
-                    <input
-                      type="email"
-                      placeholder="Enter your Email"
-                      class="mail-input"
-                    />
-                    <button type="submit" class="btn btn-submit">Submit</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="link-footer">
-                <h4>Quick Links</h4>
-                <ul>
-                  <li>
-                    <a href="ourpartner.html">Our Partners</a>
-                  </li>
-                  <li>
-                    <a href="contactus.html">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="aboutus.html">About Us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="link-footer">
-                <h4>Legal</h4>
-                <ul>
-                  <li>
-                    <a href="terms.html">Terms nad Conditions</a>
-                  </li>
-                  <li>
-                    <a href="privacypolicy.html">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="cancelation.html">Cancelation</a>
-                  </li>
-                  <li>
-                    <a href="Disclaimer.html">Disclaimer</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <script src="assets/js/bootstrap.js"></script>
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  
-      <script>
-        function mobileMenu() {
-    var menu = document.getElementById("mobile-menu");
-    if (menu.style.display === "none") {
-      menu.style.display = "block"; 
-  
-    } else {
-      menu.style.display = "none";
-    }
-  }
-      </script>
-    </body>
-  </html>
-  
+    </a>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script>(function ($) {
+        $(function () {
+      
+          
+      
+        });
+      })(jQuery);</script>
+</body>
+</html>
