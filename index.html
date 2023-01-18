@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" /> 
   </head>
   <body>
     <header>
@@ -22,7 +22,7 @@
           <div class="d-flex-menu">
             <div class="">
               <div class="logo">
-                <img src="assets/img/logo.png" width="200" alt="" />
+               <a href=""><img src="assets/img/logo.png" width="200" alt="" /></a> 
               </div>
             </div>
             <div class="lap-menu">
@@ -41,7 +41,7 @@
                     <a href="">Contact Us</a>
                   </li>
                   <li>
-                    <a href="">العربية</a>
+                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
                   </li>
                 </ul>
               </div>
@@ -88,10 +88,12 @@
                 </ul>
               </div>
             </div>
-            <button class="mobile-burger">
+            <button class="mobile-burger" onclick="mobileMenu()">
+                <span></span>  
+                <span></span>  
                 <span></span>  
             </button>
-            <div class="mobile-menu">
+            <div class="mobile-menu" id="mobile-menu">
               
               <div class="list-header">
                 <ul class="d-flex menu-list-mobile-view">
@@ -108,7 +110,7 @@
                     <a href="">Contact Us</a>
                   </li>
                   <li>
-                    <a href="">العربية</a>
+                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
                   </li>
                 </ul>
               </div>
@@ -121,7 +123,7 @@
       <section class="home-sec-banner">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 order-2">
               <div class="home-banner-sec-1">
                 <span>Looking for a some fun?</span>
                 <h1>Download Shawweet Now!</h1>
@@ -140,8 +142,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="assets/img/mainimg.png" width="400" alt="" />
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center order-1">
+              <img src="assets/img/mainimg.png" class="main-img" width="400" alt="" />
             </div>
           </div>
         </div>
@@ -215,7 +217,7 @@
             </div>
             <div class="col-lg-7 col-md-6 col-sm-12">
               <div class="find-our-app">
-                <img src="assets/img/bigimg.png" width="700" alt="" />
+                <img src="assets/img/mainimg3.png"  alt="" />
               </div>
             </div>
           </div>
@@ -262,16 +264,16 @@
               <h4>Legal</h4>
               <ul>
                 <li>
-                  <a href="">Terms nad Conditions</a>
+                  <a href="terms.html">Terms nad Conditions</a>
                 </li>
                 <li>
-                  <a href="">Privacy Policy</a>
+                  <a href="privacypolicy.html">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="">Cancelation</a>
+                  <a href="cancelation.html">Cancelation</a>
                 </li>
                 <li>
-                  <a href="">Disclaimer</a>
+                  <a href="Disclaimer.html">Disclaimer</a>
                 </li>
               </ul>
             </div>
@@ -280,5 +282,19 @@
       </div>
     </footer>
     <script src="assets/js/bootstrap.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+      function mobileMenu() {
+  var menu = document.getElementById("mobile-menu");
+  if (menu.style.display === "none") {
+    menu.style.display = "block"; 
+
+  } else {
+    menu.style.display = "none";
+  }
+}
+    </script>
   </body>
 </html>

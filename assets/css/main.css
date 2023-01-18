@@ -156,13 +156,13 @@ body {
   content: " ";
   background-image: url(../img/Linebig.png);
   position: absolute;
-  right: -160px;
+  right: -55px;
   top: 50px;
   filter: drop-shadow(0px 0px 0px #8c7e9a);
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center right;
   width: 100%;
-  background-size: 75px;
+  background-size: 39%;
   height: 100px;
 }
 
@@ -175,6 +175,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   padding: 30px 60px;
+  text-align: center;
 }
 
 .home-sec2 {
@@ -185,8 +186,7 @@ body {
   padding: 50px 0px 0px;
 
 }
-.find-our-app img{
-  height: 500px;
+.find-our-app img{ 
   width: 100%;
   max-width: 800px;
 }
@@ -197,7 +197,9 @@ body {
     overflow: hidden;
     transition: all 0.5s ease-in;
 }
-
+.button-hover{
+  max-width: 230px;
+}
 
 header {
     background-color: #FAF9FB;
@@ -511,6 +513,7 @@ background-size: 100px;
     left: 0px;
     right: 0px; 
     display: none;
+    z-index:9999999;
 }
 .menu-list-mobile-view{
     width:100%; 
@@ -521,13 +524,61 @@ background-size: 100px;
    display: block;
 }
 .mobile-burger{
-    width: 50px;
-    background: transparent;
-    border: none;
+  width: 50px;
+  background: transparent;
+  border: none;
+  position: relative;
 }
 .mobile-burger span{
-    background-color: #490B8B;
-    width:40px;
-    height:2px;
+  background-color: #490B8B;
+    width: 30px;
+    height: 4px;
+    left: 0px;
+    top: 10px;
+    position: absolute;
 
+}
+.mobile-burger span:nth-child(2){
+  background-color: #490B8B;
+  width: 30px;
+  height: 4px;
+  left: 0px;
+  top: 17px;
+  position: absolute;
+}
+.mobile-burger span:nth-child(3){
+  background-color: #490B8B;
+  width: 30px;
+  height: 4px;
+  left: 0px;
+  top: 24px;
+  position: absolute;
+}
+.mobile-burger{
+  display: none;
+}
+.order-2{
+  order: 1!important;
+}
+.order-1{
+  order: 2!important;
+}
+.d-flex-center{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+ion-icon{
+  color:#fc5100
+}
+.privacy-policy-section{
+  padding:75px 0px;
+ text-align: justify;
+}
+.main-img{
+  max-width: 75%;
+}
+.home-banner-sec-1 h2 {
+  font-weight: 700;
+  font-size: 30px;
 }

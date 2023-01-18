@@ -1,3 +1,11 @@
+@media screen and (max-width:998px) {
+    .bgmain-box1::after {
+        content: " "; 
+        right: -127px;
+        z-index: 9999;    
+        background-size: 48px; 
+    }
+}
 @media screen and (max-width:768px) {
     .d-flex {
         display: flex;
@@ -33,5 +41,83 @@
         left: 50%;
         transform: translate(-50%); 
     }
-    
+    header { 
+        border-radius: 0px 0px 25px 25px; 
+        padding: 14px;
+    }
+    .home-sec-banner {
+        padding: 85px 0px 75px;
+    }
+    .home-banner-sec-1 h1 { 
+        padding-right: 55px;
+        font-size: 3rem; 
+    }
+    .button-hover{
+        max-width: 150px;
+    }
+    .d-flex-start {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+    .box-big h5 { 
+        text-align: center;
+    }
+    .home-banner-sec-1 h2 { 
+        padding-right: 40px;
+    }
+    .find-our-app img {
+        height: auto;
+        width: 100%;
+    }
+    footer { 
+        border-radius: 25px 25px 0px 0px;
+    }
+    .mobile-burger{
+        display: block;
+    }
+    .img-3 img , .img-1 img{
+        opacity: 0.2;
+    }
+    .img-2 img, .img-4 img{
+       display: none;
+    }
+    .about-us-title { 
+        border-radius: 0px 0px 30px 30px
+    }
+    .about-us-title { 
+        padding: 50px 0px;
+    }
+    .privacypolicy-content h2 { 
+        text-align: center;
+    }
+    .btn-submit{
+        right:0px
+    }
+    .logo-sec {
+        text-align: center;
+        padding-left: 20px;
+    }
+    .box-section {
+        padding: 75px 0px 30px;
+    }
+}
+@media screen and (max-width:425px) {
+    home-banner-sec-1 h2 {
+        padding-right: 40px;
+    }
+    .logo-sec{
+        padding:20px 0px 40px;
+    }
+    box-section {
+        padding: 75px 0px 0px;
+    }
+    .title-how-its-work {
+        text-align: center;
+    }
+    .home-banner-sec-1 {
+        text-align: left;
+        padding: 0px 0px 30px;
+    }
+
 }

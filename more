@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaweet</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/mainimg.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" /> 
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="d-flex-menu">
+            <div class="">
+              <div class="logo">
+                <img src="assets/img/logo.png" width="200" alt="" />
+              </div>
+            </div>
+            <div class="lap-menu">
+              <div class="list-header">
+                <ul class="d-flex">
+                  <li>
+                    <a href="" class="active"> Home</a>
+                  </li>
+                  <li>
+                    <a href="aboutus.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="">Our Partners</a>
+                  </li>
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="lap-icon-menu">
+              <div class="social-links">
+                <ul class="d-flex icons">
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 214.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 215.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 216.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 217.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="mobile-burger" onclick="mobileMenu()">
+                <span></span>  
+                <span></span>  
+                <span></span>  
+            </button>
+            <div class="mobile-menu" id="mobile-menu">
+              
+              <div class="list-header">
+                <ul class="d-flex menu-list-mobile-view">
+                  <li>
+                    <a href="" class="active"> Home</a>
+                  </li>
+                  <li>
+                    <a href="">About Us</a>
+                  </li>
+                  <li>
+                    <a href="">Our Partners</a>
+                  </li>
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="about-us-title">
+              <h1>What is Shawweet?</h1>
+              <p>Get to know us, and become one of us!</p>
+              <div class="img-container-fluid">
+                <div class="img-1">
+                  <img src="assets/img/p1left.png" alt="" />
+                </div>
+                <div class="img-2">
+                  <img src="assets/img/p2.png" alt="" />
+                </div>
+                <div class="img-3">
+                  <img src="assets/img/p4.png" alt="" />
+                </div>
+                <div class="img-4">
+                  <img src="assets/img/p5.png" alt="" />
+                </div> 
+              </div>
+            </div>
+        
+          </section>
+    </main>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="logo-sec">
+                <img src="assets/img/logo.png" width="200" />
+                <p>subscribe to our news letter</p>
+                <div class="subscribe-input">
+                  <form>
+                    <input
+                      type="email"
+                      placeholder="Enter your Email"
+                      class="mail-input"
+                    />
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="link-footer">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li>
+                    <a href="">Our Partners</a>
+                  </li>
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="">About Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="link-footer">
+                <h4>Legal</h4>
+                <ul>
+                  <li>
+                    <a href="">Terms nad Conditions</a>
+                  </li>
+                  <li>
+                    <a href="">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="">Cancelation</a>
+                  </li>
+                  <li>
+                    <a href="">Disclaimer</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="assets/js/bootstrap.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+      <script>
+        function mobileMenu() {
+    var menu = document.getElementById("mobile-menu");
+    if (menu.style.display === "none") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  }
+      </script>
+    </body>
+  </html>
+  
