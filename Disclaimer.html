@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" /> 
   </head>
   <body>
     <header>
@@ -22,28 +22,26 @@
           <div class="d-flex-menu">
             <div class="">
               <div class="logo">
-                <img src="assets/img/logo.png" width="200" alt="" />
+               <a href="index.html"><img src="assets/img/logo.png" width="200" alt="" /></a> 
               </div>
             </div>
             <div class="lap-menu">
               <div class="list-header">
                 <ul class="d-flex">
                   <li>
-                    <a href="" class="active"> Home</a>
+                    <a href="index.html" class="active"> Home</a>
                   </li>
                   <li>
                     <a href="aboutus.html">About Us</a>
                   </li>
                   <li>
-                    <a href="">Our Partners</a>
+                    <a href="ourpartner.html">Our Partners</a>
                   </li>
                   <li>
-                    <a href="">Contact Us</a>
+                    <a href="contactus.html">Contact Us</a>
                   </li>
                   <li>
-                    <a href="" class="d-flex-center"
-                      >العربية <ion-icon name="globe-outline"></ion-icon
-                    ></a>
+                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
                   </li>
                 </ul>
               </div>
@@ -91,11 +89,12 @@
               </div>
             </div>
             <button class="mobile-burger" onclick="mobileMenu()">
-              <span></span>
-              <span></span>
-              <span></span>
+                <span></span>  
+                <span></span>  
+                <span></span>  
             </button>
             <div class="mobile-menu" id="mobile-menu">
+              
               <div class="list-header">
                 <ul class="d-flex menu-list-mobile-view">
                   <li>
@@ -111,9 +110,7 @@
                     <a href="">Contact Us</a>
                   </li>
                   <li>
-                    <a href="" class="d-flex-center"
-                      >العربية <ion-icon name="globe-outline"></ion-icon
-                    ></a>
+                    <a href="" class="d-flex-center">العربية <ion-icon name="globe-outline"></ion-icon></a>
                   </li>
                 </ul>
               </div>
@@ -230,7 +227,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="logo-sec">
-              <img src="assets/img/logo.png" width="200" />
+             <a href="index.html"><img src="assets/img/logo.png" width="200" /></a> 
               <p>subscribe to our news letter</p>
               <div class="subscribe-input">
                 <form>
@@ -249,13 +246,13 @@
               <h4>Quick Links</h4>
               <ul>
                 <li>
-                  <a href="">Our Partners</a>
+                  <a href="ourpartner.html">Our Partners</a>
                 </li>
                 <li>
-                  <a href="">Contact Us</a>
+                  <a href="contactus.html">Contact Us</a>
                 </li>
                 <li>
-                  <a href="">About Us</a>
+                  <a href="aboutus.html">About Us</a>
                 </li>
               </ul>
             </div>
@@ -265,16 +262,16 @@
               <h4>Legal</h4>
               <ul>
                 <li>
-                  <a href="">Terms nad Conditions</a>
+                  <a href="terms.html">Terms nad Conditions</a>
                 </li>
                 <li>
-                  <a href="">Privacy Policy</a>
+                  <a href="privacypolicy.html">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="">Cancelation</a>
+                  <a href="cancelation.html">Cancelation</a>
                 </li>
                 <li>
-                  <a href="">Disclaimer</a>
+                  <a href="Disclaimer.html">Disclaimer</a>
                 </li>
               </ul>
             </div>
@@ -283,24 +280,19 @@
       </div>
     </footer>
     <script src="assets/js/bootstrap.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <script>
       function mobileMenu() {
-        var menu = document.getElementById("mobile-menu");
-        if (menu.style.display === "none") {
-          menu.style.display = "block";
-        } else {
-          menu.style.display = "none";
-        }
-      }
+  var menu = document.getElementById("mobile-menu");
+  if (menu.style.display === "none") {
+    menu.style.display = "block"; 
+
+  } else {
+    menu.style.display = "none";
+  }
+}
     </script>
   </body>
 </html>
