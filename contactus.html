@@ -1,107 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shaweet</title>
-    <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css">
-    <style>
-        .ag-format-container {
-  width: 1142px;
-  margin: 0 auto;
-}
-
-.ag-football-block {
-  padding: 50px 0;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/gates.png) no-repeat scroll 50% 0;
-}
-.ag-football_box {
-  padding: 50px;
-  background-color: rgb(164, 231, 255);
-}
-.ag-football {
-  display: table;
-  height: 587px;
-  width: 524px;
-  margin: 0 auto;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/sprite-football.png) no-repeat scroll 0 0;
-  background-position: 0 100%;
-
-  -webkit-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
-  -moz-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
-  -o-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
-  animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
-}
-
-@-webkit-keyframes an-fear-mens-ltr-data {
-  to {
-    background-position: 100% 100%;
-  }
-}
-@-moz-keyframes an-fear-mens-ltr-data {
-  to {
-    background-position: 100% 100%;
-  }
-}
-@-o-keyframes an-fear-mens-ltr-data {
-  to {
-    background-position: 100% 100%;
-  }
-}
-@keyframes an-fear-mens-ltr-data {
-  to {
-    background-position: 100% 100%;
-  }
-}
-
-
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
-  }
-
-}
-
-@media only screen and (max-width: 639px) {
-
-}
-
-@media only screen and (max-width: 479px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
-  }
-
-}
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
-  }
-
-}
-
-    </style>
-</head>
-<body>
-    <a href="index.html">
-    <div class="ag-format-container">
-        <div class="ag-football-block">
-          <div class="ag-football"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaweet</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/mainimg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="d-flex-menu">
+            <div class="">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="assets/img/logo.png" width="200" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="lap-menu">
+              <div class="list-header">
+                <ul class="d-flex">
+                  <li>
+                    <a href="index.html" class="active"> Home</a>
+                  </li>
+                  <li>
+                    <a href="aboutus.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="ourpartner.html">Our Partners</a>
+                  </li>
+                  <li>
+                    <a href="contactus.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="" class="d-flex-center"
+                      >العربية <ion-icon name="globe-outline"></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="lap-icon-menu">
+              <div class="social-links">
+                <ul class="d-flex icons">
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 214.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 215.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 216.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="" class="social-icon">
+                      <img
+                        src="assets/img/Component 217.png"
+                        width="35"
+                        height="40"
+                        alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="mobile-burger" onclick="mobileMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="mobile-menu" id="mobile-menu">
+              <div class="list-header">
+                <ul class="d-flex menu-list-mobile-view">
+                  <li>
+                    <a href="" class="active"> Home</a>
+                  </li>
+                  <li>
+                    <a href="">About Us</a>
+                  </li>
+                  <li>
+                    <a href="">Our Partners</a>
+                  </li>
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="" class="d-flex-center"
+                      >العربية <ion-icon name="globe-outline"></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </a>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script>(function ($) {
-        $(function () {
-      
-          
-      
-        });
-      })(jQuery);</script>
-</body>
+    </header>
+
+    <main>
+      <section>
+        <div class="about-us-title">
+          <h1>Get In Touch</h1>
+          <p>Please contact us the way that is most convenient for you</p>
+          <div class="img-container-fluid">
+            <div class="img-1">
+              <img src="assets/img/p1left.png" alt="" />
+            </div>
+            <div class="img-2">
+              <img src="assets/img/p2.png" alt="" />
+            </div>
+            <div class="img-3">
+              <img src="assets/img/p4.png" alt="" />
+            </div>
+            <div class="img-4">
+              <img src="assets/img/p5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contactus-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="contact-us-details">
+                <h2>Get In Touch And Become a Shawweet Today!</h2>
+                <div class="d-flex-col contact-us-line">
+                  <img src="assets/img/linebluev.png" alt="" />
+                  <a href="tel:+962795405907">
+                    <i class="fa-solid fa-phone-volume"></i> +962795405907</a
+                  >
+                  <a href="mailto:Shaweet@info.com">
+                    <i class="fa-solid fa-envelope"></i> Shaweet@info.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-us-form">
+                <form action="">
+                  <input
+                    type="text"
+                    class="input-contact-us"
+                    placeholder="Enter your Name"
+                  />
+                  <input
+                    type="text"
+                    class="input-contact-us"
+                    placeholder="Enter your Email"
+                  />
+                  <textarea
+                    name=""
+                    id=""
+                    class="input-contact-us"
+                    cols="30"
+                    rows="8"
+                    placeholder="Enter your Message"
+                  ></textarea>
+                  <button type="submit" class="btn btn-submits">
+                    Send message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="faq-title">
+                <h2>FAQs</h2>
+                <p>You got the questions, we got the answers !</p>
+              </div>
+              <div class="faq-content-contain">
+                <div class="faq-section-content">
+                  <div class="accordion">
+                    <div class="accordion-item">
+                      <button id="accordion-button-1" aria-expanded="false">
+                        <span class="accordion-title"> Where do I pay? </span
+                        ><span class="icon" aria-hidden="true"></span>
+                      </button>
+                      <div class="accordion-content">
+                        <p>
+                          Here goes the answer Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Nunc vulputate libero et
+                          velit interdum, ac aliquet odio mattis. Class aptent
+                          taciti sociosqu ad litora torquent per conubia nostra,
+                          per inceptos himenaeos. Curabitur tempus urna at
+                          turpis condimentum lobortis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button id="accordion-button-1" aria-expanded="false">
+                        <span class="accordion-title"
+                          >Question 2</span
+                        ><span class="icon" aria-hidden="true"></span>
+                      </button>
+                      <div class="accordion-content">
+                        <p>
+                          Here goes the answer Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Nunc vulputate libero et
+                          velit interdum, ac aliquet odio mattis. Class aptent
+                          taciti sociosqu ad litora torquent per conubia nostra,
+                          per inceptos himenaeos. Curabitur tempus urna at
+                          turpis condimentum lobortis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button id="accordion-button-1" aria-expanded="false">
+                        <span class="accordion-title">Question 3</span
+                        ><span class="icon" aria-hidden="true"></span>
+                      </button>
+                      <div class="accordion-content">
+                        <p>
+                          Here goes the answer Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Nunc vulputate libero et
+                          velit interdum, ac aliquet odio mattis. Class aptent
+                          taciti sociosqu ad litora torquent per conubia nostra,
+                          per inceptos himenaeos. Curabitur tempus urna at
+                          turpis condimentum lobortis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button id="accordion-button-2" aria-expanded="false">
+                        <span class="accordion-title"
+                          >Question 4</span
+                        ><span class="icon" aria-hidden="true"></span>
+                      </button>
+                      <div class="accordion-content">
+                        <p>
+                          Here goes the answer Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Nunc vulputate libero et
+                          velit interdum, ac aliquet odio mattis. Class aptent
+                          taciti sociosqu ad litora torquent per conubia nostra,
+                          per inceptos himenaeos. Curabitur tempus urna at
+                          turpis condimentum lobortis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button id="accordion-button-3" aria-expanded="false">
+                        <span class="accordion-title"
+                          >Question 5</span
+                        ><span class="icon" aria-hidden="true"></span>
+                      </button>
+                      <div class="accordion-content">
+                        <p>
+                          Here goes the answer Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Nunc vulputate libero et
+                          velit interdum, ac aliquet odio mattis. Class aptent
+                          taciti sociosqu ad litora torquent per conubia nostra,
+                          per inceptos himenaeos. Curabitur tempus urna at
+                          turpis condimentum lobortis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="logo-sec">
+              <a href="index.html"
+                ><img src="assets/img/logo.png" width="200"
+              /></a>
+              <p>subscribe to our news letter</p>
+              <div class="subscribe-input">
+                <form>
+                  <input
+                    type="email"
+                    placeholder="Enter your Email"
+                    class="mail-input"
+                  />
+                  <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="link-footer">
+              <h4>Quick Links</h4>
+              <ul>
+                <li>
+                  <a href="ourpartner.html">Our Partners</a>
+                </li>
+                <li>
+                  <a href="contactus.html">Contact Us</a>
+                </li>
+                <li>
+                  <a href="aboutus.html">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="link-footer">
+              <h4>Legal</h4>
+              <ul>
+                <li>
+                  <a href="terms.html">Terms nad Conditions</a>
+                </li>
+                <li>
+                  <a href="privacypolicy.html">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="cancelation.html">Cancelation</a>
+                </li>
+                <li>
+                  <a href="Disclaimer.html">Disclaimer</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      function mobileMenu() {
+        var menu = document.getElementById("mobile-menu");
+        if (menu.style.display === "none") {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+    </script>
+  </body>
 </html>
