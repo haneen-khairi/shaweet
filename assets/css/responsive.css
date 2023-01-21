@@ -5,6 +5,23 @@
         z-index: 9999;
         background-size: 48px;
     }
+    .list-header ul li a { 
+        font-size: 13px;
+    }
+    .list-header ul li a.active::after {  
+        width: 35px;
+        background-size: 80%;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .social-links .icons li .social-icon img {
+        width: 22px;
+        height: auto;
+    }
+    .btn-submit {
+        right: 0px;
+    }
 }
 @media screen and (max-width:768px) {
     .input-contact-us {
