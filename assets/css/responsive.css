@@ -1,9 +1,9 @@
 @media screen and (max-width:998px) {
     .bgmain-box1::after {
-        content: " "; 
-        right: -127px;
-        z-index: 9999;    
-        background-size: 48px; 
+        content: " ";
+        right: -20%;
+        z-index: 9999;
+        background-size: 48px;
     }
 }
 @media screen and (max-width:768px) {
