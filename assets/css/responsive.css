@@ -7,6 +7,15 @@
     }
 }
 @media screen and (max-width:768px) {
+    .input-contact-us {
+        margin: 20px auto 20px 0px;
+    }
+    .btn-submits{
+        left:0px;
+    }
+    .first-section-about { 
+        background-size: 65px;
+    }
     .d-flex {
         display: flex;
         gap: 1rem;
@@ -53,7 +62,7 @@
         font-size: 3rem; 
     }
     .button-hover{
-        max-width: 150px;
+        max-width: 70px;
     }
     .d-flex-start {
         display: flex;
