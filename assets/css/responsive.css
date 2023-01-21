@@ -1,6 +1,7 @@
 @media screen and (max-width:998px) {
     .bgmain-box1::after {
         content: " ";
+        opacity: 0;
         right: -20%;
         z-index: 9999;
         background-size: 48px;
