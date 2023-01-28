@@ -801,3 +801,7 @@ color:  #7D848D
 .our-partner-section{
   padding:100px 0px;
 }
+.flex-row{
+  display: flex;
+  justify-content: space-evenly;
+}
