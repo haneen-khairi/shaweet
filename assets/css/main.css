@@ -340,7 +340,8 @@ position: relative;
     padding-left: 40px;
 }
 .logo-sec img{
-    width:200px;
+  width: 100px;
+  margin: -14px auto;
 }
 .link-footer{
     text-align: left;
