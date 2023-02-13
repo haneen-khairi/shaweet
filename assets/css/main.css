@@ -274,7 +274,8 @@ li {
     padding-top: 10px;
 }
 .logo img{
-width: 150px;
+  width: 100px; 
+  margin: -20px;
 }
 .social-links .icons li .social-icon img{
     width: 35px;
